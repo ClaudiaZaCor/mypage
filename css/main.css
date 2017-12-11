@@ -1,0 +1,219 @@
+/* Reset */
+* {
+	padding:0;
+	margin:0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* Grid  */
+.container::after {
+	content: "";
+	clear: both;
+    display: table;
+    margin: 2px;
+}
+
+.col-1, .col-2 , .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12  {
+	float: left;
+	padding: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+
+   .col-m-1 {
+       width: 8.33%;
+    }
+   .col-m-2 {
+       width: 16.66%;
+    }
+   .col-m-3 {
+       width: 25%;
+    }
+   .col-m-4 {
+       width: 33.33%;
+    }
+   .col-m-5 {
+       width: 41.66%;
+    }
+   .col-m-6 {
+       width: 50%;
+    }
+   .col-m-7 {
+       width: 58.33%;
+    }
+   .col-m-8 {
+       width: 66.66%;
+    }
+   .col-m-9 {
+       width: 75%;
+    }
+   .col-m-10 {
+       width: 83.33%;
+    }
+   .col-m-11 {
+       width: 91.66%;
+    }
+   .col-m-12 {
+       width: 100%;
+    }
+}
+@media only screen and (min-width: 768px){
+	
+	.col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
+
+/*estilos*/
+
+header {
+    background-color:cadetblue;
+    color:black;
+	height: 60px;
+	padding: 20px;
+}
+
+h1 {
+	float: left;
+	font-size: 30px;
+}
+
+.menu {
+	float: right;
+    font-size: 20px;
+    font-weight: 100;
+	color:blanchedalmond;
+}
+.menu ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 5px;
+}
+
+.menu ul li:hover {
+	color: black;
+}
+
+.principal {
+	height: 250px;
+	text-align: center;
+	background-color: gray;
+	color: white;
+}
+.boxLeft, .boxRight{
+    height: 250px;
+    line-height: 25px;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-between;   
+}
+
+.boxLeft button {
+	border: none;
+	background-color: crimson;
+    color: white;
+    font-size: 15px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.boxRight {
+    width: 300px;    
+}
+
+.boxes{
+    padding-left:130px;
+    margin-top: 0px;
+}
+.boxes .box1, .box2, .box3 {
+	box-shadow: 0px 0px 3px cadetblue;
+    margin-right: 20px;
+    width: 350px;
+}
+
+.boxes .box1 div{
+	background-color: cadetblue;
+	height: 200px;
+	width: 300px;
+	padding-top: 80px;
+	margin-bottom: 10px;
+}
+.boxes .box1 div p{
+	margin-left: 40%;
+}
+.boxes .box1 h2, .box2 h2, .box3 h2 {
+	margin:10px auto;
+}
+
+.boxes .box1 button, .box2 button, .box3 button {
+	border:none;
+	background-color: crimson;
+    color: white;
+    margin: 10px;
+	padding: 10px;
+}
+.boxes .box2 div{
+	background-color: cadetblue;
+	height: 200px;
+	width: 300px;
+	padding-top: 80px;
+	margin-bottom: 10px;
+}
+.boxes .box2 div p{
+	margin-left: 40%;
+}
+
+.boxes .box3 div{
+	background-color: cadetblue;
+	height: 200px;
+	width: 300px;
+	padding-top: 80px;
+	margin-bottom: 10px;
+}
+.boxes .box3 div p{
+    margin-left: 40%;
+}
+
+footer {
+    margin-top: 440px;
+	text-align: center;
+	height: 60px;
+	color: white;
+	padding: 20px;
+	background-color:#5e5e5e;
+}
